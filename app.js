@@ -6,31 +6,23 @@ const multer = require('multer');
 
 //Winston
 const logger = winston.createLogger({
-    level: 'info', // Означає, що логуватимуться рівні: info, warn, error
+    level: 'info', 
     format: winston.format.combine(
         winston.format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }),
-        winston.format.json() // Формат JSON ідеально підходить для файлів логів
+        winston.format.json() 
     ),
     transports: [
-        // Запис усіх логів у файл app.log
         new winston.transports.File({ filename: 'app.log' })
     ]
 });
 
-// ==========================================
-// 2. ІНТЕГРАЦІЯ MORGAN З WINSTON
-// ==========================================
-// Налаштовуємо Morgan так, щоб він не просто виводив текст у консоль,
-// а передавав свій рядок (message) у Winston з рівнем info
+//Morgan
 app.use(morgan('combined', {
     stream: {
         write: (message) => logger.info(message.trim())
     }
 }));
 
-// ==========================================
-// МАРШРУТИ (ROUTES)
-// ==========================================
 app.get('/', (req, res) => {
     res.send('Server is running');
 });
@@ -59,7 +51,7 @@ app.use((req, res, next) => {
 });
 
 app.post('/upload', upload.single('file'), (req, res) => {
-    logger.info('File upload endpoint triggered'); // Ручне логування події info
+    logger.info('File upload endpoint triggered'); 
     res.send('File uploaded successfully');
 });
 
@@ -84,23 +76,18 @@ app.get('/force-error', (req, res, next) => {
 });
 
 app.use((err, req, res, next) => {
-    // 1. Визначаємо HTTP-код помилки. 
-    // Якщо у об'єкта помилки немає коду (err.status або err.statusCode), 
-    // за замовчуванням ставимо 500 (Internal Server Error)
     const statusCode = err.status || err.statusCode || 500;
     const errorMessage = err.message || 'Internal Server Error';
 
-    // 2. Логуємо детальну інформацію про помилку через Winston у файл app.log
     logger.error({
         message: errorMessage,
         status: statusCode,
         method: req.method,
         url: req.originalUrl,
-        stack: err.stack, // Трейс стеку, щоб бачити, в якому рядку коду стався збій
+        stack: err.stack, 
         ip: req.ip
     });
 
-    // 3. Повертаємо користувачу відповідь у форматі JSON
     res.status(statusCode).json({
         success: false,
         error: {
@@ -110,11 +97,7 @@ app.use((err, req, res, next) => {
     });
 });
 
-// ==========================================
-// ЗАПУСК СЕРВЕРА
-// ==========================================
 app.listen(3000, () => {
-    // Тепер лог запишеться в app.log саме в момент успішного старту порту
     logger.info('Server started on port 3000');
     console.log('Server started on port 3000');
 });
