@@ -1,0 +1,28 @@
+{
+  "name": "course3_lab4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evitan22/Course3_Lab4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/evitan22/Course3_Lab4/issues"
+  },
+  "homepage": "https://github.com/evitan22/Course3_Lab4#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "morgan": "^1.10.1",
+    "multer": "^2.1.1",
+    "winston": "^3.19.0"
+  }
+}
