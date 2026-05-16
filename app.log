@@ -1,1 +1,120 @@
-{"level":"info","message":"Server started"}
+{"level":"info","message":"Server started"}{"level":"info","message":"Server started"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 19:44:53"}
+{"level":"error","message":"Щось пішло не так на сервері! Тестова помилка.","method":"GET","stack":"Error: Щось пішло не так на сервері! Тестова помилка.\n    at C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\app.js:57:19\n    at Layer.handleRequest (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\index.js:291:5)\n    at logger (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\morgan\\index.js:144:5)","timestamp":"2026-05-16 19:44:56","url":"/force-error"}
+{"level":"info","message":"::1 - - [16/May/2026:16:44:56 +0000] \"GET /force-error HTTP/1.1\" 500 21 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-16 19:44:56"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 19:47:41"}
+{"level":"info","message":"::1 - - [16/May/2026:16:47:55 +0000] \"GET /status1 HTTP/1.1\" 404 146 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-16 19:47:55"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 19:49:03"}
+{"level":"info","message":"::1 - - [16/May/2026:16:49:09 +0000] \"GET /status1 HTTP/1.1\" 404 146 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-16 19:49:09"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 19:49:47"}
+{"level":"error","message":"Щось пішло не так на сервері! Тестова помилка.","method":"GET","stack":"Error: Щось пішло не так на сервері! Тестова помилка.\n    at C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\app.js:57:19\n    at Layer.handleRequest (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\index.js:291:5)\n    at logger (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\morgan\\index.js:144:5)","timestamp":"2026-05-16 19:50:00","url":"/force-error"}
+{"level":"info","message":"::1 - - [16/May/2026:16:50:00 +0000] \"GET /force-error HTTP/1.1\" 500 21 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-16 19:50:00"}
+{"level":"error","message":"Unexpected field","method":"POST","stack":"MulterError: Unexpected field\n    at wrappedFileFilter (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\multer\\index.js:41:19)\n    at Multipart.<anonymous> (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\multer\\lib\\make-middleware.js:183:7)\n    at Multipart.emit (node:events:508:28)\n    at HeaderParser.cb (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\busboy\\lib\\types\\multipart.js:358:14)\n    at HeaderParser.push (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\busboy\\lib\\types\\multipart.js:162:20)\n    at SBMH.ssCb [as _cb] (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\busboy\\lib\\types\\multipart.js:394:37)\n    at feed (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\streamsearch\\lib\\sbmh.js:200:10)\n    at SBMH.push (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\streamsearch\\lib\\sbmh.js:104:16)\n    at Multipart._write (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\busboy\\lib\\types\\multipart.js:567:19)\n    at writeOrBuffer (node:internal/streams/writable:570:12)","timestamp":"2026-05-16 19:56:35","url":"/upload"}
+{"level":"info","message":"::1 - - [16/May/2026:16:56:35 +0000] \"POST /upload HTTP/1.1\" 500 21 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-16 19:56:35"}
+{"level":"info","message":"File upload endpoint triggered","timestamp":"2026-05-16 20:00:44"}
+{"level":"info","message":"::1 - - [16/May/2026:17:00:44 +0000] \"POST /upload HTTP/1.1\" 200 26 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-16 20:00:44"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 22:58:17"}
+{"level":"error","message":"Щось пішло не так на сервері! Тестова помилка.","method":"GET","stack":"Error: Щось пішло не так на сервері! Тестова помилка.\n    at C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\app.js:57:19\n    at Layer.handleRequest (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\index.js:291:5)\n    at logger (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\morgan\\index.js:144:5)","timestamp":"2026-05-16 22:59:17","url":"/force-error"}
+{"level":"info","message":"::1 - - [16/May/2026:19:59:17 +0000] \"GET /force-error HTTP/1.1\" 500 21 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-16 22:59:17"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:00:23"}
+{"ip":"::1","level":"error","message":"Щось пішло не так на сервері! Тестова помилка.","method":"GET","stack":"Error: Щось пішло не так на сервері! Тестова помилка.\n    at C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\app.js:57:19\n    at Layer.handleRequest (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\router\\index.js:291:5)\n    at logger (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\morgan\\index.js:144:5)","status":300,"timestamp":"2026-05-16 23:00:25","url":"/force-error"}
+{"level":"info","message":"::1 - - [16/May/2026:20:00:25 +0000] \"GET /force-error HTTP/1.1\" 300 136 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-16 23:00:25"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:04:56"}
+{"level":"info","message":"::1 - - [16/May/2026:20:05:13 +0000] \"POST /upload-multiple HTTP/1.1\" 404 155 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-16 23:05:13"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:05:32"}
+{"level":"info","message":"::1 - - [16/May/2026:20:05:35 +0000] \"POST /upload-multiple HTTP/1.1\" 200 33 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-16 23:05:35"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:12:55"}
+{"level":"info","message":"File upload endpoint triggered","timestamp":"2026-05-16 23:13:52"}
+{"level":"info","message":"::1 - - [16/May/2026:20:13:52 +0000] \"POST /upload HTTP/1.1\" 200 26 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-16 23:13:52"}
+{"ip":"::1","level":"error","message":"File too large","method":"POST","stack":"MulterError: File too large\n    at abortWithCode (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\multer\\lib\\make-middleware.js:101:22)\n    at FileStream.<anonymous> (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\multer\\lib\\make-middleware.js:211:11)\n    at FileStream.emit (node:events:508:28)\n    at SBMH.ssCb [as _cb] (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\busboy\\lib\\types\\multipart.js:479:32)\n    at feed (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\streamsearch\\lib\\sbmh.js:248:10)\n    at SBMH.push (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\streamsearch\\lib\\sbmh.js:104:16)\n    at Multipart._write (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\busboy\\lib\\types\\multipart.js:567:19)\n    at writeOrBuffer (node:internal/streams/writable:570:12)\n    at _write (node:internal/streams/writable:499:10)\n    at Writable.write (node:internal/streams/writable:508:10)","status":500,"timestamp":"2026-05-16 23:16:29","url":"/upload"}
+{"level":"info","message":"::1 - - [16/May/2026:20:16:29 +0000] \"POST /upload HTTP/1.1\" 500 67 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-16 23:16:29"}
+{"ip":"::1","level":"error","message":"Неправильний формат","method":"POST","stack":"Error: Неправильний формат\n    at fileFilter (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\app.js:42:12)\n    at wrappedFileFilter (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\multer\\index.js:45:7)\n    at Multipart.<anonymous> (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\multer\\lib\\make-middleware.js:183:7)\n    at Multipart.emit (node:events:508:28)\n    at HeaderParser.cb (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\busboy\\lib\\types\\multipart.js:358:14)\n    at HeaderParser.push (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\busboy\\lib\\types\\multipart.js:162:20)\n    at SBMH.ssCb [as _cb] (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\busboy\\lib\\types\\multipart.js:394:37)\n    at feed (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\streamsearch\\lib\\sbmh.js:200:10)\n    at SBMH.push (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\streamsearch\\lib\\sbmh.js:104:16)\n    at Multipart._write (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\busboy\\lib\\types\\multipart.js:567:19)","status":500,"timestamp":"2026-05-16 23:17:15","url":"/upload"}
+{"level":"info","message":"::1 - - [16/May/2026:20:17:15 +0000] \"POST /upload HTTP/1.1\" 500 90 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-16 23:17:15"}
+{"ip":"::1","level":"error","message":"File too large","method":"POST","stack":"MulterError: File too large\n    at abortWithCode (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\multer\\lib\\make-middleware.js:101:22)\n    at FileStream.<anonymous> (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\multer\\lib\\make-middleware.js:211:11)\n    at FileStream.emit (node:events:508:28)\n    at SBMH.ssCb [as _cb] (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\busboy\\lib\\types\\multipart.js:479:32)\n    at feed (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\streamsearch\\lib\\sbmh.js:248:10)\n    at SBMH.push (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\streamsearch\\lib\\sbmh.js:104:16)\n    at Multipart._write (C:\\Users\\root\\Desktop\\Проэкты_2курс\\Course3_Lab4\\node_modules\\busboy\\lib\\types\\multipart.js:567:19)\n    at writeOrBuffer (node:internal/streams/writable:570:12)\n    at _write (node:internal/streams/writable:499:10)\n    at Writable.write (node:internal/streams/writable:508:10)","status":500,"timestamp":"2026-05-16 23:17:53","url":"/upload"}
+{"level":"info","message":"::1 - - [16/May/2026:20:17:53 +0000] \"POST /upload HTTP/1.1\" 500 67 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-16 23:17:53"}
+{"level":"info","message":"::1 - - [16/May/2026:20:19:43 +0000] \"GET /status HTTP/1.1\" 200 136 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-16 23:19:43"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:22:01"}
+{"level":"info","message":"::1 - - [16/May/2026:20:22:21 +0000] \"GET /status HTTP/1.1\" 200 132 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-16 23:22:21"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:22:52"}
+{"level":"info","message":"::1 - - [16/May/2026:20:22:55 +0000] \"GET /status HTTP/1.1\" 200 131 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-16 23:22:55"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:25:19"}
+{"level":"info","message":"::1 - - [16/May/2026:20:25:23 +0000] \"GET /status HTTP/1.1\" 200 132 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-16 23:25:23"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:27:22"}
+{"level":"info","message":"::1 - - [16/May/2026:20:27:48 +0000] \"GET /status HTTP/1.1\" 200 133 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-16 23:27:48"}
+{"level":"info","message":"::1 - - [16/May/2026:20:28:23 +0000] \"GET /status HTTP/1.1\" 200 133 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-16 23:28:23"}
+{"level":"info","message":"::1 - - [16/May/2026:20:29:48 +0000] \"POST /upload-multiple HTTP/1.1\" 200 33 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-16 23:29:48"}
+{"level":"info","message":"::1 - - [16/May/2026:20:31:02 +0000] \"POST /upload-multiple HTTP/1.1\" 200 33 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-16 23:31:02"}
+{"level":"info","message":"::1 - - [16/May/2026:20:34:01 +0000] \"GET /crush HTTP/1.1\" 404 144 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-16 23:34:01"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:34:36"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:34:40"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:34:43"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:34:46"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:34:49"}
+{"level":"info","message":"::1 - - [16/May/2026:20:34:49 +0000] \"GET /crush HTTP/1.1\" 404 144 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-16 23:34:49"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:34:52"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:34:55"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:34:58"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:35:01"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:35:04"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:35:07"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:35:10"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:35:14"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:35:17"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:35:18"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:35:20"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:35:23"}
+{"level":"info","message":"::1 - - [16/May/2026:20:35:25 +0000] \"GET /crush HTTP/1.1\" 404 144 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-16 23:35:25"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:35:26"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:35:29"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:35:32"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:35:35"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:35:38"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:35:41"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:35:41"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:35:44"}
+{"level":"info","message":"::1 - - [16/May/2026:20:35:45 +0000] \"GET /crush HTTP/1.1\" 404 144 \"-\" \"PostmanRuntime/7.54.0\"","timestamp":"2026-05-16 23:35:45"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:35:48"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:35:51"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:35:54"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:35:57"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:36:00"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:36:03"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:36:06"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:36:09"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:36:12"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:36:15"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:36:18"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:36:22"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:36:25"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:36:28"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:36:31"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:36:34"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:36:37"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:36:40"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:36:43"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:36:46"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:36:49"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:36:52"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:36:55"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:36:59"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:37:02"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:37:05"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:37:08"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:37:11"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:37:14"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:37:17"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:37:20"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:37:23"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:37:26"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:37:30"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:37:32"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:37:36"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:37:39"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:37:42"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:37:45"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:37:48"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:37:51"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:37:54"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:37:57"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:38:00"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-05-16 23:38:04"}
